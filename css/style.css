@@ -1,0 +1,46 @@
+/* CSS Reset */
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('../img/bg.jpg');
+
+}
+
+.left {
+    display: inline-block;
+    border: 2px solid red;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.mid {
+    display: block;
+    width: 53%;
+    margin: 20px auto;
+    border: 2px solid green;
+}
+
+.right {
+    display: inline-block;
+    border: 2px solid red;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
