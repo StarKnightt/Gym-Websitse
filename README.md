@@ -22,6 +22,8 @@ Here's a brief overview of the key files and directories in this project:
 ## Usage
 To use this project for educational purposes:
 
+## Preview this website - https://main--spontaneous-daifuku-3c5852.netlify.app/
+
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/yourusername/html-css-learning-project.git
