@@ -7,8 +7,7 @@ This repository serves as an educational project to practice HTML and CSS skills
 - [Project Description](#project-description)
 - [Project Structure](#project-structure)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Project Description
 The project consists of an HTML webpage representing a fitness website named "StarKnight's Fitness." The HTML file defines the structure and content of the webpage, while the CSS file styles it to make it visually appealing.
