@@ -1,15 +1,15 @@
 /* CSS Reset */
 body {
+    font-family: 'Baloo Bhaijaan 2', cursive;
     color: white;
     margin: 0px;
     padding: 0px;
     background: url('../img/bg.jpg');
-
 }
 
 .left {
     display: inline-block;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: absolute;
     left: 34px;
     top: 20px;
@@ -17,17 +17,17 @@ body {
 
 .mid {
     display: block;
-    width: 53%;
+    width: 60%;
     margin: 20px auto;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 .right {
     display: inline-block;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: absolute;
-    right: 34px;
-    top: 20px;
+    right: 22px;
+    top: 37px;
 }
 
 .navbar {
@@ -42,5 +42,81 @@ body {
 .navbar li a {
     color: white;
     text-decoration: none;
-    padding: 34px 23px;
+    padding: 34px 30px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(18, 87, 33);
+}
+
+.left img {
+    width: 31px;
+    filter: invert(100%);
+    /*it is used to convert color of the particular image, like converting black to white  */
+    padding-inline: 60px;
+
+
+}
+
+.left div {
+    text-align: center;
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    margin: 0px 9px;
+    background-color: transparent;
+    color: white;
+    padding: 4px 14px;
+    /* border: 2px solid grey; */
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(93, 93, 87);
+}
+
+.container {
+    /* border: 2px solid yellow; */
+    margin: 106px 80px;
+    padding: 75px;
+    width: 32%;
+    border-radius: 28px;
+}
+
+.form-group input{
+     text-align: center;
+     display: block;
+     width: 477px;
+     padding: 6px;
+     /* border: 3px solid black; */
+     margin: 11px auto;
+     font-size: 25px;
+     border-radius: 8px;
+     font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.container h1{
+    text-align: center;
+    text-decoration:underline ;
+    color: black;
+    border: 23px 45px;
+    border-style: solid;
+    border-radius: 10%;
+}
+.container h1:hover{
+    color: rgb(0,255,255);
+}
+
+.container button{
+    display: block;
+    width: 23%;
+    margin :auto;
+    color: cyan;
 }
